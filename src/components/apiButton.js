@@ -54,7 +54,7 @@ export default class ButtonApi extends Component {
         PROJECT_NAME +
         ":predict";
 
-      this.setEndpoint(URL_ENDPOINT); // Utiliza "this" para acceder a setEndpoint
+      this.setEndpoint(URL_ENDPOINT);
     } catch (error) {
       console.log(error.message);
     }
